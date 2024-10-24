@@ -46,7 +46,7 @@ Trigger: Push to main branch (dags/** files) or manual trigger
 ### Environment Management
 - Segregated environment configurations:
   - `.env_dev` for development
-  - `.env_ppd` for pre-production
+  - `.env_stg` for staging
   - `.env_prd` for production
 - Each environment has isolated resources and configurations
 
@@ -56,7 +56,7 @@ Deployment strategies:
 #### 1. Three-Branch Strategy
 ```
 develop  → Development Environment
-preprod  → Pre-production Environment
+staging  → Staging Environment
 prod     → Production Environment
 ```
 - Merge Requests trigger deployments to respective environments
@@ -67,7 +67,7 @@ prod     → Production Environment
 ```
 main branch:
 ├── Merge Request → Dev Environment
-├── Merge        → Pre-prod Environment
+├── Merge        → Staging Environment
 └── Tag          → Production Environment
 ```
 - Tags follow Semantic Versioning (MAJOR.MINOR.PATCH)
