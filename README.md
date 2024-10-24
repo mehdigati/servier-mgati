@@ -4,6 +4,7 @@
 This repository contains a data engineering solution for analyzing drug mentions across scientific publications, including PubMed articles and clinical trials. The project processes multiple data sources to generate a comprehensive graph showing relationships between drugs, publications, and journals.
 
 ## Repository Structure
+```
 .
 ├── README.md                 # This file
 ├── .github/                  # GitHub Actions workflows
@@ -20,6 +21,7 @@ This repository contains a data engineering solution for analyzing drug mentions
 └── sql/                     # SQL analysis queries
     ├── sales_by_day.sql
     └── sales_by_product_type.sql
+```
 
 ## CI/CD Pipeline
 The project uses GitHub Actions for automated CI/CD pipelines, integrating with Google Cloud Platform services.
