@@ -1,0 +1,218 @@
+{
+    "journals": [
+        {
+            "title": "Journal Of Emergency Nursing",
+            "referenced_in": {
+                "pubmed_articles": [
+                    {
+                        "article_id": "1",
+                        "article_title": "A 44-Year-Old Man With Erythema Of The Face Diphenhydramine Neck And Chest Weakness And Palpitations",
+                        "mention_date": "2019-01-01",
+                        "mentioned_drug_id": "A04AD",
+                        "mentioned_drug_name": "Diphenhydramine"
+                    },
+                    {
+                        "article_id": "2",
+                        "article_title": "An Evaluation Of Benadryl Pyribenzamine And Other So-Called Diphenhydramine Antihistaminic Drugs In The Treatment Of Allergy",
+                        "mention_date": "2019-01-01",
+                        "mentioned_drug_id": "A04AD",
+                        "mentioned_drug_name": "Diphenhydramine"
+                    }
+                ],
+                "clinical_trials": [
+                    {
+                        "article_id": "NCT04237091",
+                        "article_title": "Feasibility Of A Randomized Controlled Clinical Trial Comparing The Use Of Cetirizine To Replace Diphenhydramine In The Prevention Of Reactions Related To Paclitaxel",
+                        "mention_date": "2020-01-01",
+                        "mentioned_drug_id": "A04AD",
+                        "mentioned_drug_name": "Diphenhydramine"
+                    },
+                    {
+                        "article_id": "NCT04189588",
+                        "article_title": "Phase 2 Study Iv Quzyttir Cetirizine Hydrochloride Injection Vs V Diphenhydramine",
+                        "mention_date": "2020-01-01",
+                        "mentioned_drug_id": "A04AD",
+                        "mentioned_drug_name": "Diphenhydramine"
+                    },
+                    {
+                        "article_id": "NCT04188184",
+                        "article_title": "Tranexamic Acid Versus Epinephrine During Exploratory Tympanotomy",
+                        "mention_date": "2020-04-27",
+                        "mentioned_drug_id": "A01AD",
+                        "mentioned_drug_name": "Epinephrine"
+                    },
+                    {
+                        "article_id": "NCT01967433",
+                        "article_title": "Use Of Diphenhydramine As An Adjunctive Sedative For Colonoscopy In Patients Chronically On Opioids",
+                        "mention_date": "2020-01-01",
+                        "mentioned_drug_id": "A04AD",
+                        "mentioned_drug_name": "Diphenhydramine"
+                    }
+                ]
+            }
+        },
+        {
+            "title": "American Journal Of Veterinary Research",
+            "referenced_in": {
+                "pubmed_articles": [
+                    {
+                        "article_id": "5",
+                        "article_title": "Appositional Tetracycline Bone Formation Rates In The Beagle",
+                        "mention_date": "2020-01-02",
+                        "mentioned_drug_id": "S03AA",
+                        "mentioned_drug_name": "Tetracycline"
+                    }
+                ],
+                "clinical_trials": []
+            }
+        },
+        {
+            "title": "The Journal Of Maternal-Fetal & Neonatal Medicine",
+            "referenced_in": {
+                "pubmed_articles": [
+                    {
+                        "article_id": "10",
+                        "article_title": "Clinical Implications Of Umbilical Artery Doppler Changes After Betamethasone Administration",
+                        "mention_date": "2020-01-01",
+                        "mentioned_drug_id": "R01AD",
+                        "mentioned_drug_name": "Betamethasone"
+                    },
+                    {
+                        "article_id": "13",
+                        "article_title": "Comparison Of Pressure Betamethasone Release Phonophoresis And Dry Needling In Treatment Of Latent Myofascial Trigger Point Of Upper Trapezius Atropine Muscle",
+                        "mention_date": "2020-03-01",
+                        "mentioned_drug_id": "A03BA",
+                        "mentioned_drug_name": "Atropine"
+                    },
+                    {
+                        "article_id": "13",
+                        "article_title": "Comparison Of Pressure Betamethasone Release Phonophoresis And Dry Needling In Treatment Of Latent Myofascial Trigger Point Of Upper Trapezius Atropine Muscle",
+                        "mention_date": "2020-03-01",
+                        "mentioned_drug_id": "R01AD",
+                        "mentioned_drug_name": "Betamethasone"
+                    }
+                ],
+                "clinical_trials": []
+            }
+        },
+        {
+            "title": "Journal Of Back And Musculoskeletal Rehabilitation",
+            "referenced_in": {
+                "pubmed_articles": [
+                    {
+                        "article_id": "11",
+                        "article_title": "Effects Of Topical Application Of Betamethasone On Imiquimod-Induced Psoriasis-Like Skin Inflammation In Mice",
+                        "mention_date": "2020-01-01",
+                        "mentioned_drug_id": "R01AD",
+                        "mentioned_drug_name": "Betamethasone"
+                    }
+                ],
+                "clinical_trials": []
+            }
+        },
+        {
+            "title": "The Journal Of Pediatrics",
+            "referenced_in": {
+                "pubmed_articles": [
+                    {
+                        "article_id": "3",
+                        "article_title": "Diphenhydramine Hydrochloride Helps Symptoms Of Ciguatera Fish Poisoning",
+                        "mention_date": "2019-01-02",
+                        "mentioned_drug_id": "A04AD",
+                        "mentioned_drug_name": "Diphenhydramine"
+                    }
+                ],
+                "clinical_trials": []
+            }
+        },
+        {
+            "title": "Journal Of Photochemistry And Photobiology B Biology",
+            "referenced_in": {
+                "pubmed_articles": [
+                    {
+                        "article_id": "9",
+                        "article_title": "Gold Nanoparticles Synthesized From Euphorbia Fischeriana Root By Green Route Method Alleviates The Isoprenaline Hydrochloride Induced Myocardial Infarction In Rats",
+                        "mention_date": "2020-01-01",
+                        "mentioned_drug_id": "6302001",
+                        "mentioned_drug_name": "Isoprenaline"
+                    }
+                ],
+                "clinical_trials": []
+            }
+        },
+        {
+            "title": "Psychopharmacology",
+            "referenced_in": {
+                "pubmed_articles": [
+                    {
+                        "article_id": "6",
+                        "article_title": "Rapid Reacquisition Of Contextual Fear Following Extinction In Mice Effects Of Amount Of Extinction Tetracycline Acute Ethanol Withdrawal And Ethanol Intoxication",
+                        "mention_date": "2020-01-01",
+                        "mentioned_drug_id": "S03AA",
+                        "mentioned_drug_name": "Tetracycline"
+                    },
+                    {
+                        "article_id": "6",
+                        "article_title": "Rapid Reacquisition Of Contextual Fear Following Extinction In Mice Effects Of Amount Of Extinction Tetracycline Acute Ethanol Withdrawal And Ethanol Intoxication",
+                        "mention_date": "2020-01-01",
+                        "mentioned_drug_id": "V03AB",
+                        "mentioned_drug_name": "Ethanol"
+                    }
+                ],
+                "clinical_trials": []
+            }
+        },
+        {
+            "title": "Journal Of Food Protection",
+            "referenced_in": {
+                "pubmed_articles": [
+                    {
+                        "article_id": "4",
+                        "article_title": "Tetracycline Resistance Patterns Of Lactobacillus Buchneri Group Strains",
+                        "mention_date": "2020-01-01",
+                        "mentioned_drug_id": "S03AA",
+                        "mentioned_drug_name": "Tetracycline"
+                    }
+                ],
+                "clinical_trials": []
+            }
+        },
+        {
+            "title": "The Journal Of Allergy And Clinical Immunology In Practice",
+            "referenced_in": {
+                "pubmed_articles": [
+                    {
+                        "article_id": "7",
+                        "article_title": "The High Cost Of Epinephrine Autoinjectors And Possible Alternatives",
+                        "mention_date": "2020-02-01",
+                        "mentioned_drug_id": "A01AD",
+                        "mentioned_drug_name": "Epinephrine"
+                    },
+                    {
+                        "article_id": "8",
+                        "article_title": "Time To Epinephrine Treatment Is Associated With The Risk Of Mortality In Children Who Achieve Sustained Rosc After Traumatic Out-Of-Hospital Cardiac Arrest",
+                        "mention_date": "2020-03-01",
+                        "mentioned_drug_id": "A01AD",
+                        "mentioned_drug_name": "Epinephrine"
+                    }
+                ],
+                "clinical_trials": []
+            }
+        },
+        {
+            "title": "Hôpitaux Universitaires De Genève",
+            "referenced_in": {
+                "pubmed_articles": [],
+                "clinical_trials": [
+                    {
+                        "article_id": "NCT04153396",
+                        "article_title": "Preemptive Infiltration With Betamethasone And Ropivacaine For Postoperative Pain In Laminoplasty Or Laminectomy",
+                        "mention_date": "2020-01-01",
+                        "mentioned_drug_id": "R01AD",
+                        "mentioned_drug_name": "Betamethasone"
+                    }
+                ]
+            }
+        }
+    ]
+}
