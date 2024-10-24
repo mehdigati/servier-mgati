@@ -1,0 +1,42 @@
+name: Deploy DAG to Cloud Composer
+
+on:
+  push:
+    branches: [ main ]
+    paths:
+      - 'dags/**'
+  workflow_dispatch:
+
+env:
+  PROJECT_ID: ${{ secrets.GCP_PROJECT_ID }}
+  COMPOSER_BUCKET: ${{ secrets.COMPOSER_DAG_BUCKET }}
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: read
+      id-token: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Authenticate to Google Cloud
+        uses: google-github-actions/auth@v2
+        with:
+          workload_identity_provider: ${{ secrets.WORKLOAD_IDENTITY_PROVIDER }}
+          service_account: ${{ secrets.SERVICE_ACCOUNT_EMAIL }}
+
+      - name: Set up Cloud SDK
+        uses: google-github-actions/setup-gcloud@v2
+
+      - name: Upload DAGs to Cloud Storage
+        run: |
+          # Copy all DAG files to the Composer bucket
+          gsutil -m cp -r dags/* gs://${{ env.COMPOSER_BUCKET }}/dags/
+
+          # Verify files were copied
+          echo "Listing contents of DAGs folder:"
+          gsutil ls gs://${{ env.COMPOSER_BUCKET }}/dags/

@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "servier-mgati"
+version = "1.0.0"
+description = "Data Engineering - Technical test"
+authors = ["Mehdi GATI <mehdigati@hotmail.com>"]
+readme = "README.md"
+
+packages = [
+    { include = "app" }
+]
+
+[tool.poetry.dependencies]
+python = "^3.12.3"
+pandas = "^2.2.3"
+numpy = "~2.0.2"
+google-cloud-logging = "^3.11.3"
+pre-commit = "^4.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
