@@ -2,10 +2,8 @@
 import unittest
 
 # My Custom packages
-from app.src.ad_hoc.json_processing import (
-    get_all_articles_from_journal,
-    get_drugs_mentioned_by_journal,
-)
+from app.src.ad_hoc.json_processing import (get_all_articles_from_journal,
+                                            get_drugs_mentioned_by_journal)
 
 
 class TestJsonProcessing(unittest.TestCase):

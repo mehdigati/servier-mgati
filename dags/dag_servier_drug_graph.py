@@ -5,9 +5,8 @@ from airflow.decorators import dag, task
 from airflow.exceptions import AirflowException
 from airflow.models.param import Param
 from airflow.operators.python import get_current_context
-from airflow.providers.cncf.kubernetes.operators.kubernetes_pod import (
-    KubernetesPodOperator,
-)
+from airflow.providers.cncf.kubernetes.operators.kubernetes_pod import \
+    KubernetesPodOperator
 from airflow.utils.dates import datetime, timedelta
 
 # Documentation

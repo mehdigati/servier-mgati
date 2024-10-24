@@ -6,9 +6,7 @@ from unittest.mock import call, patch
 
 # My Custom packages
 from app.src.files_processing.files_processing import (
-    create_folders_if_not_exist,
-    fix_broken_json,
-)
+    create_folders_if_not_exist, fix_broken_json)
 
 
 class TestFilesProcessing(unittest.TestCase):
